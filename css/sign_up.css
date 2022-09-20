@@ -27,10 +27,12 @@ body{
   background: none;
   margin-top: 9px;
   font-size: 25px;
+  cursor: pointer;
 }
 .ca_button {
   background-color: rgb(239, 79, 95);
   color: white;
+
 }
 .full_name,
 .email {
@@ -45,6 +47,7 @@ body{
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   border-color: grey;
+  cursor: pointer;
 }
 .already_user {
   text-align: left;
