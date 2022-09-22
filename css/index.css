@@ -1,143 +1,61 @@
-/* body {
-  font-family: sans-serif;
+body {
   background-image: url("/images/background_home.png");
-  background-size:1600px 460px;
   background-repeat: no-repeat;
-  margin: 0% 15% 0% 15%;
-  
+  background-size: 100% 550px;
+}
+.header{
+  height: 550px;
+}
+.nb {
+  padding: 0px;
+}
+.nb_list {
+  display: inline;
+}
+.navigation_bar {
+  width: 70%;
+  font-size: 16px;
+  top: 10px;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+}
+.sign_up,
+.log_in,
+.add_restaurant,
+.investor_relations {
+  float: right;
+}
+.sign_up,
+.log_in,
+.add_restaurant,
+.investor_relations,
+.get_the_app {
+  color: white;
+  padding: 15px;
+}
+.sign_up:hover,
+.log_in:hover,
+.add_restaurant:hover,
+.investor_relations:hover,
+.get_the_app:hover {
+  color: white;
+  text-decoration: none;
+  font-family: "Metropolis", sans-serif;
 }
 .logo {
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
   height: 60px;
   width: 300px;
-  padding: 30px 0px 0px 0px;
+  top: 80px;
 }
 .quotes {
   color: white;
-  font-size: 30px;
+  font-family: "Metropolis", sans-serif;
+  font-size: 36px;
   text-align: center;
-  font-size:40px;
-  padding: 0px 0px 0px 0px;
-}
-.nb {
-  text-align: right;
-}
-.log_in_button,
-.sign_up_button {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: white;
-  font-size: 20px;
   margin-top: 30px;
-  margin-bottom:10px;
-  cursor: pointer;
 }
-.search_box {
-  background: white;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: auto;
-  width: 600px;
-  height: 55px;
-  border-radius: 10px;
-
-}
-
-.location{
-  margin-left:5%;
-
-  border: none;
-  outline: none;
-}
-.search {
-  margin-left:5%;
-  flex: 1;
-  border: none;
-  outline: none;
-}
-
-.order_online, .snacks,.western{
-  margin-top: 160px;
-  margin-left: 15%;
-  height: 180px;
-  width:240px;
-  border-radius: 20px;
-  cursor: pointer;
-  
-  
-} 
-
-.column1,.column2,.column3 {
-  float: left;
-  width: 33.33%;
-  text-align: center;
-  
-}
-
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  
-}
- */
-
- body {
-  background-image: url("/images/background_home.png");
-  background-repeat: no-repeat;
-  background-size: 100% 500px;
-
-}
-.nb {
-  margin-top: 20px;
-  margin-right: 15%;
-  margin-left: 15%;
-
-}
-.get_the_app{
-  margin:10px;
-}
-.get_the_app,
-.investor_relations,
-.add_restaurant,
-.log_in_button,
-.sign_up__button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-  text-align: center;
-  color: #ffffff;
-}
-.investor_relations,
-.add_restaurant,
-.log_in_button,
-.sign_up__button {
-  float: right;
-  margin:10px;
-}   
-.logo,.quotes{
-  text-align: center;
-  margin-top: 50px;
-  color:white;
-}
-.quotes{
-  margin-bottom: 50px;
-}
-.logo_zomato{
-  height: 60px;
-  width: 300px;
-}
-.search_container{
+.search_container {
   background: white;
   align-items: center;
   justify-content: center;
@@ -146,15 +64,16 @@
   width: 600px;
   height: 50px;
   border-radius: 5px;
-} 
-.search{
+}
+.search {
   flex: 1;
-  width:350px
+  width: 350px;
 }
-.location{
-  width:130px;
+.location {
+  width: 130px;
 }
-.location, .search{
+.location,
+.search {
   margin-left: 15px;
   border: none;
   outline: none;
@@ -165,7 +84,7 @@
   align-items: center;
 justify-content: center;
 display:flex;
-  margin-top: 180px;
+  margin-top: 50px;
   
 }
 .order_online,.snacks,.dining
@@ -178,5 +97,44 @@ background-image: url("/images/order_online.jpg");
 background-size: 300px 200px;
 text-indent: 5px;
 color:#ffffff;
+}
+.collections{
+  margin-left:17%;
+}
+.heading{
+  font-size: 36px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.collection_quotes{
+  font-size: 25px;
+}
+.footer{
+    background-color: rgb(194, 194, 194);
+    width:100%;
+    height:300px;
+    
+}
+.footer_container{
+    margin-left: 15%;
+    margin-right: 15%;
+padding-top: 40px;
+padding-bottom: 22px;
+}
+.footer_header{
+    align-items: center;
+}
+.footer_logo{
+    height: 28px;
+    width: 132px;
 
+}
+.footer_heading{
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom:10px;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0px;
 }
