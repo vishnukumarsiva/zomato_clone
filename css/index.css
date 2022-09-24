@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 550px;
 }
-.header{
+.header {
   height: 550px;
 }
 .nb {
@@ -33,6 +33,7 @@ body {
 .get_the_app {
   color: white;
   padding: 15px;
+  font-family: "Metropolis", sans-serif;
 }
 .sign_up:hover,
 .log_in:hover,
@@ -78,63 +79,174 @@ body {
   border: none;
   outline: none;
 }
-.body_content{
+/* .body_content {
   margin-left: 15%;
   margin-right: 15%;
   align-items: center;
-justify-content: center;
-display:flex;
+  justify-content: center;
+  display: flex;
   margin-top: 50px;
-  
+} */
+.order_online,
+.snacks,
+.dining {
+  border: 1px solid gray;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  background-size: 100% 200px;
+  text-indent: 10px;
+  color: #ffffff;
+
 }
-.order_online,.snacks,.dining
-{
-border: 1px solid gray;
-height: 200px;
-width: 300px;
-border-radius: 15px;
-background-image: url("/images/order_online.jpg");
-background-size: 300px 200px;
-text-indent: 5px;
-color:#ffffff;
+.order_online,.order_online:hover{
+
+  background-image: url("/images/order_online.jpg");
 }
-.collections{
-  margin-left:17%;
+.snacks:hover,.snacks{
+  background-image: url("/images/snacks.jpg")
 }
-.heading{
+.dining:hover,.dining{
+  background-image: url("/images/western.jpg")
+}
+.order_online:hover,
+.snacks:hover,
+.dining:hover {
+  height: 210px;
+  width: 105%;
+  background-size: 100% 210px;
+}
+.collections_heading {
+  margin-left: 15%;
+  font-size:36px;
+  margin-top:25px;
+  margin-right: 15%;
+}
+/* .heading {
   font-size: 36px;
   padding-top: 50px;
   font-weight: bold;
+} */
+.collection_quotes,
+.all_collections {
+  font-size: 18px;
 }
-.collection_quotes{
-  font-size: 25px;
+.all_collections{
+  color:rgb(255,126,139);
+  text-decoration: none;
+  font-family: "Metropolis", sans-serif;
 }
-.footer{
-    background-color: rgb(194, 194, 194);
-    width:100%;
-    height:300px;
-    
-}
-.footer_container{
-    margin-left: 15%;
-    margin-right: 15%;
-padding-top: 40px;
-padding-bottom: 22px;
-}
-.footer_header{
-    align-items: center;
-}
-.footer_logo{
-    height: 28px;
-    width: 132px;
+
+
+
+.newly_opened,
+.trend_this_week,
+.best_of_bengaluru,
+.microbreweries {
+  border: 1px solid gray;
+  height: 320px;
+  width: 100%;
+  border-radius: 15px;
+  background-size: 100% 320px;
+  text-indent: 10px;
+  color: #ffffff;
 
 }
-.footer_heading{
+.newly_opened,.newly_opened:hover{
+
+  background-image: url("/images/pexels-flo-dahm-541216.jpg");
+}
+.trend_this_week:hover,.trend_this_week{
+
+  background-image: url("/images/pexels-igor-starkov-914388.jpg");
+}
+.best_of_bengaluru:hover,.best_of_bengaluru{
+  background-image: url("/images/pexels-pixabay-327158.jpg")
+}
+.microbreweries:hover,.microbreweries{
+  background-image: url("/images/pexels-volkan-vardar-3887985.jpg")
+}
+.newly_opened:hover,
+.trend_this_week:hover,
+.best_of_bengaluru:hover,
+.microbreweries:hover {
+  height: 330px;
+  width: 105%;
+  background-size: 100% 330px;
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: rgb(194, 194, 194);
+  width: 100%;
+  height: 300px;
+}
+.footer_container {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.footer_header {
+  align-items: center;
+}
+.footer_logo {
+  height: 28px;
+  width: 132px;
+}
+.footer_heading {
   text-decoration: none;
   font-size: 14px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
+  color: black;
 }
-ul{
+ul {
   list-style-type: none;
   padding-left: 0px;
+}
+.privacy,
+.security,
+.terms,
+.sitemap,
+.zomato_for_work,
+.partner_with_us,
+.apps_for_you,
+.zomato_footer,
+.feeding_india,
+.hyperpure,
+.zomaland,
+.who_we_are,
+.blog,
+.work_with_us,
+.investor_relations_footer,
+.report_fraud,
+.contact_us {
+  color: #303030;
+  padding-top: 2px;
+}
+.privacy:hover,
+.security:hover,
+.terms:hover,
+.sitemap:hover,
+.zomato_for_work:hover,
+.partner_with_us:hover,
+.apps_for_you:hover,
+.zomato_footer:hover,
+.feeding_india:hover,
+.hyperpure:hover,
+.zomaland:hover,
+.who_we_are:hover,
+.blog:hover,
+.work_with_us:hover,
+.investor_relations_footer:hover,
+.report_fraud:hover,
+.contact_u:hover {
+  text-decoration: none;
+
+  font-family: "Metropolis", sans-serif;
 }
