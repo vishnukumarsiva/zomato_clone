@@ -184,11 +184,30 @@ body {
   font-family: "Metropolis", sans-serif;
 }
 .zomato_app_container{
-  background-color: rgb(255, 216, 220);
+  background-color: rgb(249, 235, 237);
   margin-top:100px;
   background-size: 100% 500px;
   width:  100%;
   height: 500px;
+}
+.email_app,.submit_button_app{
+  height: 100%;
+  width:98%;
+  
+  border-radius: 5px;
+}
+.submit_button_app{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.email_app{
+
+  border-color: grey;
 }
 
 
@@ -263,6 +282,5 @@ ul {
 .report_fraud:hover,
 .contact_u:hover {
   text-decoration: none;
-
   font-family: "Metropolis", sans-serif;
 }

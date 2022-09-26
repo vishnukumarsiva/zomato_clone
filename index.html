@@ -18,8 +18,8 @@
         <div class="navigation_bar">
             <ul class="nb">
                 <li class="nb_list"><a href="" class="get_the_app">Get the app</a></li>
-                <li class="nb_list"><a href="" class="sign_up">Sign Up</a></li>
-                <li class="nb_list"><a href="" class="log_in">Log in</a></li>
+                <li class="nb_list"><a href="/html/sign_up.html" class="sign_up">Sign Up</a></li>
+                <li class="nb_list"><a href="/html/log_in.html" class="log_in">Log in</a></li>
                 <li class="nb_list"><a href="" class="add_restaurant">Add Restaurant</a></li>
                 <li class="nb_list"><a href="" class="investor_relations">Investor Relations</a></li>
             </ul>
@@ -41,11 +41,12 @@
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <form class="search_box">
                         
-                      <input class="location" type="text" placeholder="Location..." />
+                      <input class="location"  type="text" placeholder="Location..." />
                       <input
                         class="search"
                         type="text"
                         placeholder="Search for restaurent cusin or dish..."
+                        style="border-left: 2px solid grey;"
                       />
                     </form>
                   </div>
@@ -237,18 +238,47 @@
           <div class="row">
             <div class="checkbox_email_ph" style="font-size:18px;">
             <div class="col-lg-6">
-            <label class="container" style="font-weight:normal;">Email
-              <input style="height: 20px; width:20px; accent-color: rgb(255 129 139); " type="radio" checked="checked" name="radio">
+            <label class="container" style="font-weight:normal; padding:0px;">Email
+              <input style="height: 20px; width:20px;  " id="email_btn" type="radio" checked="" name="radio" onclick="placeholder1()">
               <span class="checkmark"></span>
             </label>
           </div>
           <div class="col-lg-6">
-            <label class="container" style="font-weight:normal;">Phone
-              <input style="height: 20px; width:20px; accent-color: rgb(255 129 139);" type="radio" name="radio">
+            <label class="container" style="font-weight:normal; padding:0px;">Phone
+              <input style="height: 20px; width:20px;" id="phone_btn" type="radio" name="radio" onclick="placeholder1()">
               <span class="checkmark"></span>
             </label>
           </div>
         </div>
+          </div>
+          <div class="row" style="margin:5px 0px 0px 0px;">
+            <div class="col-lg-9" style="padding:0px; width:75% ; height:50px;">
+              <input
+                        class="email_app"
+                        id="email_phone_app"
+                        type="text"
+                        placeholder="Enter Email"
+                      />
+            </div>  
+            <div class="col-lg-3"style="padding:0px ; ;width:25% ; text-align:center; height:50px; 
+            background-color: rgb(255,126,139); border-radius: 5px;">
+                <a href="#" type="button"  class="submit_button_app" style="color:white;">
+                  Share Link
+                </a>
+            </div>        
+          </div>
+          <div class="row" style="margin-top:10px;">
+            <div class="col-lg-12">
+              <p>Download App From</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <img style="height:40px; width: 137px;" src="/images/googleplay_logo.png" alt="">
+            </div>
+            <div class="col-lg-6">
+              <img style="height:40px; width: 137px;" src="/images/app_store_logo.png" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -329,6 +359,7 @@
     </div>
   </footer>
   </body>
+  <script src="/js/placeholder.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
