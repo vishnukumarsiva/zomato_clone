@@ -1,0 +1,120 @@
+body{
+    background-image: url("/images/res_background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+li{
+  display:inline;
+}
+.sign_up_btn,
+.log_in_btn,
+.product_btn{
+  float:right;
+  padding:5px;
+  text-decoration: none;
+  color:white;
+  font-family: "Metropolis", sans-serif;
+  margin-left: 20px;
+  margin-right:20px;
+
+  
+}
+.sign_up_btn:hover,
+.log_in_btn:hover,
+.product_btn:hover
+{
+  color:white;
+}
+.log_in_btn{
+  border:1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+.sign_up_btn{
+  border-radius: 5px;
+  background-color:rgb(39, 129, 231);
+}
+
+
+.add_res_nav_bar{
+  margin-left: 20%;
+  margin-right:20%;
+  margin-top:20px;
+  
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(194, 194, 194);
+    width: 100%;
+    height: 100%;
+  }
+  .footer_container {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+    padding-bottom: 22px;
+  }
+  .footer_header {
+    align-items: center;
+  }
+  .footer_logo {
+    height: 28px;
+    width: 132px;
+  }
+  .footer_heading {
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .privacy,
+  .security,
+  .terms,
+  .sitemap,
+  .zomato_for_work,
+  .partner_with_us,
+  .apps_for_you,
+  .zomato_footer,
+  .feeding_india,
+  .hyperpure,
+  .zomaland,
+  .who_we_are,
+  .blog,
+  .work_with_us,
+  .investor_relations_footer,
+  .report_fraud,
+  .contact_us {
+    color: #303030;
+    padding-top: 2px;
+  }
+  .privacy:hover,
+  .security:hover,
+  .terms:hover,
+  .sitemap:hover,
+  .zomato_for_work:hover,
+  .partner_with_us:hover,
+  .apps_for_you:hover,
+  .zomato_footer:hover,
+  .feeding_india:hover,
+  .hyperpure:hover,
+  .zomaland:hover,
+  .who_we_are:hover,
+  .blog:hover,
+  .work_with_us:hover,
+  .investor_relations_footer:hover,
+  .report_fraud:hover,
+  .contact_u:hover {
+    text-decoration: none;
+    font-family: "Metropolis", sans-serif;
+  }
