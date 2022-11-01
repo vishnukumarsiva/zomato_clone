@@ -1,9 +1,13 @@
 body{
+  background-color: grey;
+  background-size: 100% 100%;
+}
+.header{
     background-image: url("/images/res_background.webp");
+    
     background-repeat: no-repeat;
-    background-size: 100% 450px;
-    margin-left:20%;
-    margin-right:20%;
+    background-size: 100% 480px;
+    
 }
 
 li{
@@ -35,18 +39,67 @@ li{
 }
 .sign_up_btn{
   border-radius: 5px;
+  border:none;
+  width:150px;
   background-color:rgb(39, 129, 231);
+  text-align: center;
 }
 
 
 .add_res_nav_bar{
   margin-left: 20%;
   margin-right:20%;
-  margin-top:20px;
+  padding-top:20px;
   
 }
-
-
+.heading_quotes{
+  margin-left: 20%;
+  margin-top:100px;
+  color:white;
+  font-family: "Metropolis", sans-serif;
+}
+.para{
+  margin-left: 20%;
+  color:white;
+  font-family: "Metropolis", sans-serif;
+}
+.buttons{
+  margin-left:20%;
+  margin-top:20px;
+  width:50%;
+  height: 100px;
+}
+.log_in{
+  height: 50px;
+  width:100%;
+  background-color: rgb(39, 129, 231);
+  color:white;
+  border-radius:5px;
+  border-color: none;
+  font-family: "Metropolis", sans-serif;
+  border:none;
+  margin-top: 2px;
+}
+ /* .grey_border{ 
+  background-color:grey;
+  height:380px;
+  width: 100%;
+}  */
+.contents{
+  padding:32px;
+  background-color: white;
+  margin-left:20%;
+  width:50%;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 10px 10px #888888;
+}
+.quotes_partner{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Metropolis", sans-serif;
+}
 
 
 
