@@ -1,0 +1,73 @@
+/* Header section CSS */
+
+/* Navigation bar CSS for Medium and Large Screen */
+.ls_md_nb_li {
+  display: inline;
+  margin: 5px;
+}
+.ls_md_nb_ul {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0px 5% 0px 5%;
+}
+.ls_md_nb_li_contents {
+  color: white;
+  font-size: 18px;
+  font-family: "Metropolis", sans-serif;
+}
+.sm_nb {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+.search_container {
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+}
+.search {
+  flex: 1;
+  width: 350px;
+}
+.location {
+  width: 130px;
+}
+.location,
+.search {
+  margin-left: 15px;
+  border: none;
+  outline: none;
+}
+/* .dining {
+  margin-top: 20px;
+} */
+#opt_row {
+  margin: 50px 20px 50px 20px;
+}
+#quotes_row, #collections_row {
+    margin: 0px 20px 0px 20px;
+}
+.opt_h2{
+    margin-top:120px;
+}
+#collections_img_row{
+    margin:0px 20px 0px 20px;
+}
+#pop_heading{
+    margin:25px 20px 25px 20px;
+}
+#pop_plc_row{
+    margin:15px 20px 15px 20px;
+}
+.app_container{
+  margin:0px 20px 0px 20px;
+}
+#app_contents{
+  float:left;
+  padding:0px 80px 0px 0px;
+}

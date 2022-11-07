@@ -1,0 +1,135 @@
+/* Header Section CSS  */
+
+.change2 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  background-image: none;
+}
+.ls_md_nb {
+  opacity: 0;
+  height: 0px;
+}
+.sm_nb {
+  opacity: 1;
+}
+.menu_icon {
+  padding: 10px;
+  width: 55px;
+}
+.menu_bar1,
+.menu_bar2,
+.menu_bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0px;
+  transition: 0.5s;
+}
+.change .menu_bar1 {
+  transform: translate(0, 11px) rotate(45deg);
+  background-color: rgb(78, 74, 74);
+}
+.change .menu_bar2 {
+  opacity: 0;
+}
+.change .menu_bar3 {
+  transform: translate(0, -11px) rotate(-45deg);
+  background-color: rgb(78, 74, 74);
+}
+.sm_nb_ul {
+  padding-left: 0px;
+}
+.sm_nb_s2 {
+  height: 0px;
+}
+.sm_nb_li_contents {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.4s;
+  opacity: 0;
+  list-style: none;
+}
+.change1 .sm_nb_li_contents {
+  opacity: 1;
+  height: 100vh;
+  width: 100%;
+}
+.sm_nb_logo {
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  height: 40px;
+  width: 140px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.change2 .sm_nb_logo {
+  opacity: 1;
+}
+.as_logo {
+  margin-top: 20px;
+  height: 50px;
+  width: 250px;
+}
+.quotes {
+  font-size: 24px;
+}
+.change2 .as_logo,
+.change2 .quotes,
+.change2 .search_container {
+  opacity: 0;
+}
+.search_container {
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+}
+.search{
+width:60%;
+}
+.location{
+    width:20%;
+}
+.search,.location{
+    border: none;
+}
+#opt_row{
+    margin:50px 10px 50px 10px;
+}
+.dining{
+    margin-top:20px;
+}
+#quotes_row, #collections_row {
+    margin: 0px 10px 0px 20px;
+}
+.opt_h2{
+    margin-top:120px;
+}
+#collections_img_row{
+    margin:0px 10px 0px 10px;
+}
+#pop_heading{
+    text-align: center;
+}
+#pop_plc_row{
+    margin:15px 10px 15px 10px;
+}
+#plc_con{
+    padding:15px;
+}
+.app_row{
+  height: 520px;
+}
+.app_img{
+  margin:100px 10px 100px 25px;
+
+}
+

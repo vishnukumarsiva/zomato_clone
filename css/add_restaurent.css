@@ -80,6 +80,9 @@ li{
   border:none;
   margin-top: 2px;
 }
+.log_in:hover{
+  background-color: rgb(85, 150, 224);
+}
  /* .grey_border{ 
   background-color:grey;
   height:380px;

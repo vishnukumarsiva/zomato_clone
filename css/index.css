@@ -1,53 +1,16 @@
-body {
+/* Header Section CSS  */
+.header_container {
+  height: 420px;
   background-image: url("/images/background_home.png");
   background-repeat: no-repeat;
-  background-size: 100% 550px;
+  background-position: center;
+  background-attachment: cover;
+  background-size: cover;
 }
-.header {
-  height: 550px;
-}
-.nb {
-  padding: 0px;
-}
-.nb_list {
-  display: inline;
-}
-.navigation_bar {
-  width: 70%;
-  font-size: 16px;
-  top: 10px;
-  position: absolute;
-  left: 15%;
-  right: 15%;
-}
-.sign_up,
-.log_in,
-.add_restaurant,
-.investor_relations {
-  float: right;
-}
-.sign_up,
-.log_in,
-.add_restaurant,
-.investor_relations,
-.get_the_app {
-  color: white;
-  padding: 15px;
-  font-family: "Metropolis", sans-serif;
-}
-.sign_up:hover,
-.log_in:hover,
-.add_restaurant:hover,
-.investor_relations:hover,
-.get_the_app:hover {
-  color: white;
-  text-decoration: none;
-  font-family: "Metropolis", sans-serif;
-}
-.logo {
+.as_logo {
+  margin-top: 100px;
   height: 60px;
   width: 300px;
-  top: 80px;
 }
 .quotes {
   color: white;
@@ -56,37 +19,6 @@ body {
   text-align: center;
   margin-top: 30px;
 }
-.search_container {
-  background: white;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: auto;
-  width: 600px;
-  height: 50px;
-  border-radius: 5px;
-}
-.search {
-  flex: 1;
-  width: 350px;
-}
-.location {
-  width: 130px;
-}
-.location,
-.search {
-  margin-left: 15px;
-  border: none;
-  outline: none;
-}
-/* .body_content {
-  margin-left: 15%;
-  margin-right: 15%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 50px;
-} */
 .order_online,
 .snacks,
 .dining {
@@ -97,48 +29,34 @@ body {
   background-size: 100% 200px;
   text-indent: 10px;
   color: #ffffff;
-
 }
-.order_online,.order_online:hover{
-
+.order_online {
   background-image: url("/images/order_online.jpg");
 }
-.snacks:hover,.snacks{
-  background-image: url("/images/snacks.jpg")
+.snacks {
+  background-image: url("/images/snacks.jpg");
 }
-.dining:hover,.dining{
-  background-image: url("/images/western.jpg")
+.dining {
+  background-image: url("/images/western.jpg");
 }
-.order_online:hover,
-.snacks:hover,
-.dining:hover {
-  height: 210px;
-  width: 105%;
-  background-size: 100% 210px;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .dining {
+    margin-top: 20px;
+  }
 }
 .collections_heading {
-  margin-left: 15%;
-  font-size:36px;
-  margin-top:25px;
-  margin-right: 15%;
-}
-/* .heading {
   font-size: 36px;
-  padding-top: 50px;
-  font-weight: bold;
-} */
+  font-family: "Metropolis", sans-serif;
+}
 .collection_quotes,
 .all_collections {
   font-size: 18px;
-}
-.all_collections{
-  color:rgb(255,126,139);
   text-decoration: none;
   font-family: "Metropolis", sans-serif;
 }
-
-
-
+.all_collections {
+  cursor: pointer;
+}
 .newly_opened,
 .trend_this_week,
 .best_of_bengaluru,
@@ -150,215 +68,188 @@ body {
   background-size: 100% 320px;
   text-indent: 10px;
   color: #ffffff;
-
 }
-.newly_opened,.newly_opened:hover{
-
+.newly_opened {
   background-image: url("/images/pexels-flo-dahm-541216.jpg");
 }
-.trend_this_week:hover,.trend_this_week{
-
+.trend_this_week {
   background-image: url("/images/pexels-igor-starkov-914388.jpg");
 }
-.best_of_bengaluru:hover,.best_of_bengaluru{
-  background-image: url("/images/pexels-pixabay-327158.jpg")
+.best_of_bengaluru {
+  background-image: url("/images/pexels-pixabay-327158.jpg");
 }
-.microbreweries:hover,.microbreweries{
-  background-image: url("/images/pexels-volkan-vardar-3887985.jpg")
+.microbreweries {
+  background-image: url("/images/pexels-volkan-vardar-3887985.jpg");
 }
-.newly_opened:hover,
-.trend_this_week:hover,
-.best_of_bengaluru:hover,
-.microbreweries:hover {
-  height: 330px;
-  width: 105%;
-  background-size: 100% 330px;
-
+@media screen and (max-width: 992px) {
+  #col_img_id {
+    padding: 10px 10px 10px 10px;
+  }
 }
-.places{
+#pop_heading {
+  font-size: 36px;
+  font-family: "Metropolis", sans-serif;
+  height: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.places {
   border: #595959 solid 1px;
   text-indent: 15px;
-  color:black;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
   font-family: "Metropolis", sans-serif;
+  font-size: 20px;
+  height: 100px;
 }
-.zomato_app_container{
+.zomato_app_container {
   background-color: rgb(249, 235, 237);
-  margin-top:100px;
+  margin-top: 100px;
   background-size: 100% 500px;
-  width:  100%;
-  height: 100%;
-}
-.email_app,.submit_button_app{
-  height: 100%;
-  width:98%;
-  
-  border-radius: 5px;
-}
-.submit_button_app{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display:flex;
-  border-radius: 5px;
-  text-decoration: none;
-  list-style-type: none;
-}
-.email_app{
-
-  border-color: grey;
-}
-
-
-
-
-
-
-
-.footer {
-  background-color: rgb(194, 194, 194);
   width: 100%;
   height: 100%;
 }
-.footer_container {
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-top: 40px;
-  padding-bottom: 22px;
+.email_app,
+.submit_button_app {
+  height: 100%;
+  width: 98%;
+  border-radius: 5px;
 }
-.footer_header {
-  align-items: center;
-}
-.footer_logo {
-  height: 28px;
-  width: 132px;
-}
-.footer_heading {
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: black;
-}
-ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-.privacy,
-.security,
-.terms,
-.sitemap,
-.zomato_for_work,
-.partner_with_us,
-.apps_for_you,
-.zomato_footer,
-.feeding_india,
-.hyperpure,
-.zomaland,
-.who_we_are,
-.blog,
-.work_with_us,
-.investor_relations_footer,
-.report_fraud,
-.contact_us {
-  color: #303030;
-  padding-top: 2px;
-}
-.privacy:hover,
-.security:hover,
-.terms:hover,
-.sitemap:hover,
-.zomato_for_work:hover,
-.partner_with_us:hover,
-.apps_for_you:hover,
-.zomato_footer:hover,
-.feeding_india:hover,
-.hyperpure:hover,
-.zomaland:hover,
-.who_we_are:hover,
-.blog:hover,
-.work_with_us:hover,
-.investor_relations_footer:hover,
-.report_fraud:hover,
-.contact_u:hover {
-  text-decoration: none;
-  font-family: "Metropolis", sans-serif;
-}
-
-
-
-
-/* 
-
-
-.login_container{
-  display: flex;
+.submit_button_app {
+  text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top:10%;
-  top:50%;
-  left:50%;
-  opacity: 0;
-  visibility: hidden;
-}
-.login_container.active{
-  opacity: 1;
-  visibility: visible ;
-}
-
-
-.login_popup{
-  background-color: rgba(0,0,0,0.3);
-  text-align: center;
-  height: 375px;
-  width: 400px;
-  max-width: 100vw;
-  max-height: 100vh;
-  background-color: #fff;
-  border-radius: 10px;
-  border: 1px solid black;
-  box-shadow:  5px 5px 0px 0px;
-  
-}
-.close_button {
-  float: right;
-  border: none;
-  background: none;
-  margin-top: 9px;
-  font-size: 25px;
-  cursor: pointer;
-}
-h2 {
-  text-align: left;
-  margin-top: 20px;
-  padding-top: 15px;
-}
-.form {
-  margin: 0px 15px 0px 15px;
-  padding-top: 0px;
-}
-
-.phone_number{
-  width:340px;
-  padding:10px 10px 10px 10px;
-  margin-bottom: 10px;
+  display: flex;
   border-radius: 5px;
-  text-align: center;
-}
-.otp_button,.email_button,.google_button{
-  width:100%;
-  margin-bottom: 10px;
-  padding:10px 10px 10px 10px;
-  border-radius: 5px;
-  border-color: grey; 
-  cursor: pointer;
-}
-.otp_button{
-  background-color:rgb(239, 79, 95);
-  color :white;
-  
-}
-.new_user{
-  text-align: left;
   text-decoration: none;
-}  */
+  list-style-type: none;
+}
+.email_app {
+  border-color: grey;
+}
+.app_row{
+  margin-top:50px;
+  background-color:rgb(255, 251, 247);
+  background-size: 100% 480px;
+  width:100%;
+  height:480px;
+}
+.app_img{
+  height: 320px;
+  width:280px;
+  margin:80px 10px 80px 25px;
+  float:right;
+}
+#app_img{
+  padding:0px;
+}
+#app_contents{
+  margin:80px 0px 80px 0px;
+  font-family: "Metropolis", sans-serif;
+}
+#get_title{
+  font-size:36px;
+  text-align:center;
+}
+#get_quotes{
+  font-size:18px;
+}
+input[type=radio]#email_btn,
+input[type=radio]#phone_btn{
+  accent-color: rgb(239, 79, 95);
+}
+#email_app_con,
+#phone_app_con{
+  font-size:20px;
+  font-family: "Metropolis", sans-serif;
+  font-weight: 300;
+}
+#email_btn,
+#phone_btn{
+  height: 17.6px;
+  width: 17.6px;
+}
+#email_phone_app{
+  height:48px;
+  width:100%;
+  border:1px solid grey;
+  padding:15px;
+  border-radius: 5px;;
+}
+#share_btn{
+  text-align: center;
+  color:white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style-type: none;
+  padding:14px 0px 14px 0px;
+}
+#share_btn_col{
+  padding: 0px;
+  width: 25%;
+  text-align: center;
+  height: 48px;
+  background-color: rgb(255, 126, 139);
+  border-radius: 5px;
+}
+@media screen and (max-width:768px){
+  #app_img{
+    height:0px;
+    width:0px;
+    opacity: 0;
+
+  }
+  #app_contents{
+    height:0px;
+    width:0px;
+    opacity: 0;
+    padding: 0px;
+    margin: 0px;
+  }
+  #app_contents_1{
+    text-align: center;
+    height: 320px;
+    margin:100px 0px 100px 0px;
+  }
+  #app_row_1,
+  #app_row_2,
+  #app_row_3,
+  #app_row_4,
+  #app_row_5,
+  #app_row_6{
+    margin:0px 20px 0px 20px;
+  }
+  
+}
+@media screen and (min-width:769px){
+  #app_contents_1{
+    height:0px;
+    width:0px;
+    opacity: 0;
+  }
+  
+}
+.gp_icon,
+.ap_icon{
+  height:40px;
+  width:137px;
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+  #app_contents{
+    padding:0px 200px 0px 0px;
+  }
+}
+@media screen and (min-width:1400px) and (max-width:1600px){
+  #app_contents{
+    padding:0px 250px 0px 0px;
+  }
+}
+@media screen and (min-width:1600px){
+  #app_contents{
+    padding:0px 350px 0px 0px;
+  }
+}
