@@ -71,3 +71,15 @@
   float:left;
   padding:0px 80px 0px 0px;
 }
+#exp_row_1,
+#exp_row_2,
+#exp_row_3,
+#exp_row_4,
+#exp_row_5{
+  margin:20px 20px 0px 20px;
+}
+.footer_container {
+  margin:0px 20px 0px 20px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}

@@ -132,4 +132,15 @@ width:60%;
   margin:100px 10px 100px 25px;
 
 }
-
+#exp_row_1,
+#exp_row_2,
+#exp_row_3,
+#exp_row_4,
+#exp_row_5{
+  margin:10px 10px 0px 10px;
+}
+.footer_container {
+  margin:0px 10px 0px 10px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}

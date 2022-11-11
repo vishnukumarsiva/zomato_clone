@@ -93,3 +93,15 @@
 #get_quotes{
   font-size:20px;
 }
+#exp_row_1,
+#exp_row_2,
+#exp_row_3,
+#exp_row_4,
+#exp_row_5{
+  margin:20px 10% 0px 10%;
+}
+.footer_container {
+  margin:0px 10% 0px 10%;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
