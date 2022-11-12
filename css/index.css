@@ -264,67 +264,39 @@ input[type=radio]#phone_btn{
   margin-top:50px;
 }
 
-
-.footer {
-  background-color: rgb(194, 194, 194);
-  width: 100%;
+.footer{
+  background-color:rgb(248, 248, 248);
   height: 100%;
+  width:100%;
+  padding:50px 0px 50px 0px;
 }
-
-.footer_header {
-  align-items: center;
+.xs_footer,
+#xs_footer_row,
+#xs_footer_col{
+  opacity: 0;
+  height: 0px;
 }
-.footer_logo {
-  height: 28px;
-  width: 132px;
-}
-.footer_heading {
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: black;
-}
-ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-.privacy,
-.security,
-.terms,
-.sitemap,
-.zomato_for_work,
-.partner_with_us,
-.apps_for_you,
-.zomato_footer,
-.feeding_india,
-.hyperpure,
-.zomaland,
-.who_we_are,
-.blog,
-.work_with_us,
-.investor_relations_footer,
-.report_fraud,
-.contact_us {
-  color: #303030;
-  padding-top: 2px;
-}
-.privacy:hover,
-.security:hover,
-.terms:hover,
-.sitemap:hover,
-.zomato_for_work:hover,
-.partner_with_us:hover,
-.apps_for_you:hover,
-.zomato_footer:hover,
-.feeding_india:hover,
-.hyperpure:hover,
-.zomaland:hover,
-.who_we_are:hover,
-.blog:hover,
-.work_with_us:hover,
-.investor_relations_footer:hover,
-.report_fraud:hover,
-.contact_u:hover {
-  text-decoration: none;
-  font-family: "Metropolis", sans-serif;
+@media screen and (max-width:768px){
+  .xs_footer,
+  #xs_footer_row,
+  #xs_footer_col{
+    opacity: 1;
+    height: 100%;
+  }
+  .xs_footer{
+    padding:20px 0px 20px 0px;
+    margin:0px 15px 0px 15px;
+  }
+  .footer{
+    background-color:rgb(248, 248, 248);
+    height: 100%;
+    width:100%;}
+  .footer_container,
+  #f_ls_ms_row_1,
+  #f_ls_ms_row_2,
+  #f_ls_md_contents,
+  #social_links{
+    opacity: 0;
+    height: 0px;
+  }
 }

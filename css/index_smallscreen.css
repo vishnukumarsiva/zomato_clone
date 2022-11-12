@@ -139,8 +139,9 @@ width:60%;
 #exp_row_5{
   margin:10px 10px 0px 10px;
 }
-.footer_container {
+.footer_container{
   margin:0px 10px 0px 10px;
-  padding-top: 40px;
-  padding-bottom: 22px;
+}
+#social_links{
+  opacity: 0;
 }
