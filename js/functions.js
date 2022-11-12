@@ -6,3 +6,14 @@ function nav_bar(){
     var header_container = document.getElementById("header_container_id");
     header_container.classList.toggle('change2');
 }
+function placeholder1(){
+    var email_checked = document.getElementById("email_btn").checked
+    var phone_checked = document.getElementById("phone_btn").checked
+    if (email_checked){
+        document.getElementById("email_phone_app").placeholder="Enter Email"
+    }
+    else if(phone_checked){
+        document.getElementById("email_phone_app").placeholder="Enter Phone Number"
+    }
+        
+}
