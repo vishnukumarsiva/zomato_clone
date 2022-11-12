@@ -13,6 +13,7 @@
 .sm_nb {
   opacity: 1;
 }
+
 .menu_icon {
   padding: 10px;
   width: 55px;
@@ -79,8 +80,13 @@
 }
 .change2 .as_logo,
 .change2 .quotes,
-.change2 .search_container {
+.change2 .search_container,
+.change2 #page_logo_row,
+.change2 #page_quotes_row,
+.change2 #page_search_row {
   opacity: 0;
+  height: 0px;
+  width:0px;
 }
 .search_container {
   background: white;
