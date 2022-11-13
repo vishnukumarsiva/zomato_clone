@@ -17,3 +17,17 @@ function placeholder1(){
     }
         
 }
+function phone_number_check(){
+    var p_n = document.getElementById('email_phone_app').value;
+    var lable = document.getElementById('quotes_phone_email');
+    var regex=/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+    var regex_1=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+    if (p_n==''){
+        alert("Please Enter Your Phone Number or Email...!!");
+    }else if(p_n.match(regex) || p_n.match(regex_1)){
+        alert("Congrats App link Sent...!");  
+    }
+    else{
+        alert("Oops wrong phone number or email"); 
+    }
+}
